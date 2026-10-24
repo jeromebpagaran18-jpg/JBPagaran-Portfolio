@@ -125,7 +125,7 @@ onMounted(() => {
     <Transition name="intro">
       <div v-if="showIntro" class="intro-screen">
         <div class="intro-content">
-          <p class="intro-label">JEROME B. PAGARAN PORTFOLIO</p>
+          <p class="intro-label">JEROME BAQUIRAN PAGARAN </p>
 
           <h1 class="intro-title">
             WELCOME<span>.</span>
@@ -192,9 +192,27 @@ onMounted(() => {
               <a class="button button-outline" href="#about">
                 DISCOVER MORE
               </a>
-            </div>
+              
+              <a
+                  class="button button-outline"
+                  href="/cv.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                 VIEW MY CV ↗
+                </a>
 
-          </div>
+                <a
+                class="button button-primary"
+                href="/cv.jpg"
+                download="cv.jpg"
+                >
+               DOWNLOAD MY CV ↓
+              </a>
+
+             </div>
+
+              </div>
 
           <div class="hero-visual">
             <div class="visual-grid"></div>
@@ -241,8 +259,8 @@ onMounted(() => {
 
       <div class="about-bio">
         <span class="portrait-label"></span>  
-        <p class="big-copy">
-          I'm Jerome B. Pagaran from Tumauini, Isabela. I'm taking
+        <p class="soft-copy">
+          I'm Jerome B. Pagaran from Tumauini, Isabela. taking
           Bachelor of Science in Computer Engineering at Cagayan State
           University - Carig Campus. I have a passion for software,
           hardware, and AI, creating innovative solutions that bridge
@@ -404,8 +422,7 @@ onMounted(() => {
       <footer class="footer">
         <a class="logo" href="#home">JB<span>.</span></a>
         <p>DESIGNED WITH CURIOSITY. BUILT WITH CODE.</p>
-        <a href="#home">BACK TO TOP ↑</a>
-        <span> JEROME PAGARAN</span>
+        <a href="#home">BACK TO TOP ↑</a>    
       </footer>
 
       
