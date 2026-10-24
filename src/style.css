@@ -324,23 +324,6 @@ h1 {
   color: var(--cyan);
 }
 
-.orbit {
-  position: absolute;
-  width: 350px;
-  height: 350px;
-  border: 1px solid #9d6bff42;
-  border-radius: 50%;
-}
-
-.orbit-one {
-  transform: scaleY(0.45) rotate(35deg);
-}
-
-.orbit-two {
-  transform: scaleY(0.6) rotate(-35deg);
-  border-color: #42f5ff35;
-}
-
 .visual-tag {
   position: absolute;
   color: var(--cyan);
@@ -699,7 +682,7 @@ h2 {
 
 .intro-enter-active,
 .intro-leave-active {
-  transition: opacity 0.6s ease;
+  transition: opacity 0.4s ease;
 }
 
 .intro-leave-to {

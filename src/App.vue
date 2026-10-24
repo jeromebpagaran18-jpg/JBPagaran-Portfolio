@@ -101,10 +101,11 @@ const projects = [
   },
 ]
 
+
 onMounted(() => {
   const interval = window.setInterval(() => {
     loadingProgress.value = Math.min(
-      loadingProgress.value + 1,
+      loadingProgress.value + 5,
       100,
     )
 
@@ -115,8 +116,9 @@ onMounted(() => {
         showIntro.value = false
       }, 100)
     }
-  }, 50)
+  }, 30)
 })
+
 </script>
 
 <template>
@@ -216,9 +218,6 @@ onMounted(() => {
 
           <div class="hero-visual">
             <div class="visual-grid"></div>
-            <div class="orbit orbit-one"></div>
-            <div class="orbit orbit-two"></div>
-
             <div class="portrait-card">
               <img 
                   class="profile-photo"
